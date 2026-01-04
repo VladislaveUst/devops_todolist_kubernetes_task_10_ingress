@@ -7,7 +7,7 @@ spec:
   rules:
   - http:
       paths:
-      - ImplementationSpecific: Prefix
+      - pathType: ImplementationSpecific
         path: /(/.*)?
         backend:
           service:
